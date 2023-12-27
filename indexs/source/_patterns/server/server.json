@@ -1,0 +1,11 @@
+{
+	"company": {
+		"name": "Company Name",
+		"url": "http://company.com"
+	},
+	"page": {
+		"title": "android code",
+		"description": "google play android客户端"
+	},
+	"htmlText":"<iframe src='../../README.md' width='100%' height='500px'></iframe>"
+}
