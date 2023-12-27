@@ -8,7 +8,7 @@ import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 
 /**
- * @author: yuluo
+ * @author: micro
  * @date: 2023/5/16 20:05
  * @description: Remote System Service Interface
  */

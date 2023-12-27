@@ -5,7 +5,7 @@ import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.context.annotation.Configuration;
 
 /**
- * @author: yuluo
+ * @author: micro
  * @date: 2023/5/15 19:36
  * @description: 验证码配置
  */

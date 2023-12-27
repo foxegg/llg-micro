@@ -1,23 +1,22 @@
-package indi.yuluo.module.system;
+package indi.micro.module.system;
 
-import indi.yuluo.common.annotation.EnableYuluoFeignClients;
-
+import indi.micro.common.annotation.EnableMicroFeignClients;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
- * @author: yuluo
+ * @author: micro
  * @date: 2023/5/15 16:28
  * @description: some desc
  */
 
 @SpringBootApplication
-@EnableYuluoFeignClients
-public class YuluoMicroServiceModuleSystemApplication {
+@EnableMicroFeignClients
+public class MicroServiceModuleSystemApplication {
 
 	public static void main(String[] args) {
 
-		SpringApplication.run(YuluoMicroServiceModuleSystemApplication.class, args);
+		SpringApplication.run(MicroServiceModuleSystemApplication.class, args);
 		System.out.println(" 系统服务启动…… ");
 
 	}

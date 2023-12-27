@@ -6,7 +6,7 @@ import lombok.Data;
 import lombok.EqualsAndHashCode;
 
 /**
- * @author: yuluo
+ * @author: micro
  * @date: 2023/5/15 15:09
  * @description: swagger 自定义配置
  */

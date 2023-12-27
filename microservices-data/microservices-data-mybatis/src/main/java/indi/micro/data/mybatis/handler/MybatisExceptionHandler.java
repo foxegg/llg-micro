@@ -1,6 +1,6 @@
-package indi.yuluo.data.mybatis.handler;
+package indi.micro.data.mybatis.handler;
 
-import indi.yuluo.common.result.Result;
+import indi.micro.common.result.Result;
 import jakarta.servlet.http.HttpServletRequest;
 import lombok.extern.slf4j.Slf4j;
 import org.mybatis.spring.MyBatisSystemException;
@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 
 /**
- * @author: yuluo
+ * @author: micro
  * @date: 2023/5/18 9:16
  * @description: Mybatis异常处理器
  */

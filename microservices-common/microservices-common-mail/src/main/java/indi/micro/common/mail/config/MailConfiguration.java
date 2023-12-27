@@ -9,7 +9,7 @@ import org.springframework.boot.context.properties.EnableConfigurationProperties
 import org.springframework.context.annotation.Bean;
 
 /**
- * @author: yuluo
+ * @author: micro
  * @date: 2023/5/17 15:53
  * @description: Mail Configuration
  */

@@ -1,7 +1,7 @@
 package indi.micro.common.utils;
 
 /**
- * @author: yuluo
+ * @author: micro
  * @date: 2023/5/15 19:42
  * @description: Base64 工具类
  */

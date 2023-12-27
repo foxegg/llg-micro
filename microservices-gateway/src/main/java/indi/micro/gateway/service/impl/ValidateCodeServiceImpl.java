@@ -26,7 +26,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.util.FastByteArrayOutputStream;
 
 /**
- * @author: yuluo
+ * @author: micro
  * @date: 2023/5/15 19:27
  * @description: 验证码实现处理
  */

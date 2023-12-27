@@ -7,7 +7,7 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.test.context.SpringBootTest;
 
 /**
- * @author: yuluo
+ * @author: micro
  * @date: 2023/5/16 11:37
  * @description: 检查是否能从 Nacos 中获取通用配置
  */

@@ -1,7 +1,7 @@
 package indi.micro.common.Enum;
 
 /**
- * @author: yuluo
+ * @author: micro
  * @date: 2023/5/15 18:21
  * @description: 返回结果行为接口
  */

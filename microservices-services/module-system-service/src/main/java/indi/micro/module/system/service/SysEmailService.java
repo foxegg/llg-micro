@@ -1,7 +1,7 @@
-package indi.yuluo.module.system.service;
+package indi.micro.module.system.service;
 
 /**
- * @author: yuluo
+ * @author: micro
  * @date: 2023/5/24 10:56
  * @description: SysEmailService
  */

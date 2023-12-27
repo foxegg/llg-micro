@@ -11,7 +11,7 @@ import org.springframework.cloud.gateway.filter.factory.AbstractGatewayFilterFac
 import org.springframework.stereotype.Component;
 
 /**
- * @author: yuluo
+ * @author: micro
  * @date: 2023/5/15 20:04
  * @description: 黑名单过滤器
  */

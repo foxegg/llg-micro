@@ -3,7 +3,7 @@ package indi.micro.common.Enum.impl;
 import indi.micro.common.Enum.IResult;
 
 /**
- * @author: yuluo
+ * @author: micro
  * @date: 2023/5/15 18:21
  * @description: 返回结果枚举类
  */

@@ -3,7 +3,7 @@ package indi.micro.common.Enum;
 import java.util.function.Function;
 
 /**
- * @author: yuluo
+ * @author: micro
  * @date: 2023/3/27 17:48
  * @description: 脱敏策略，枚举类，针对不同的数据定制特定的策略
  */

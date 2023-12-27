@@ -1,11 +1,11 @@
-package indi.yuluo.module.system.service.impl;
+package indi.micro.module.system.service.impl;
 
-import indi.yuluo.module.system.service.SysUserTestService;
+import indi.micro.module.system.service.SysUserTestService;
 
 import org.springframework.stereotype.Service;
 
 /**
- * @author: yuluo
+ * @author: micro
  * @date: 2023/5/15 20:55
  * @description: some desc
  */
@@ -15,6 +15,6 @@ public class SysUserTestServiceImpl implements SysUserTestService {
 
 	@Override
 	public String testUser() {
-		return "test-user-yuluo";
+		return "test-user-micro";
 	}
 }

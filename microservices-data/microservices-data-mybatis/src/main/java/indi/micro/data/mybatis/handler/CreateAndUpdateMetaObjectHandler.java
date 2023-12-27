@@ -1,16 +1,16 @@
-package indi.yuluo.data.mybatis.handler;
+package indi.micro.data.mybatis.handler;
 
 import java.util.Date;
 
 import cn.hutool.core.util.ObjectUtil;
 import com.baomidou.mybatisplus.core.handlers.MetaObjectHandler;
-import indi.yuluo.common.domain.base.BaseEntity;
-import indi.yuluo.common.exception.ServiceException;
+import indi.micro.common.domain.base.BaseEntity;
+import indi.micro.common.exception.ServiceException;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.ibatis.reflection.MetaObject;
 
 /**
- * @author: yuluo
+ * @author: micro
  * @date: 2023/5/18 9:21
  * @description: MP注入处理器
  */

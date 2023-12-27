@@ -4,7 +4,7 @@ package indi.micro.common.log.filter;
 import com.alibaba.fastjson2.filter.SimplePropertyPreFilter;
 
 /**
- * @author: yuluo
+ * @author: micro
  * @date: 2023/5/17 18:57
  * @description: 排除JSON敏感属性
  */

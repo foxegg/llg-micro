@@ -3,7 +3,7 @@ package indi.micro.common.utils;
 import indi.micro.common.constant.CacheConstants;
 
 /**
- * @author: yuluo
+ * @author: micro
  * @date: 2023/5/20 14:45
  * @description: some desc
  */

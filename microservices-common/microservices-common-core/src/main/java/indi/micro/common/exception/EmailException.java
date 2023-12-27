@@ -3,7 +3,7 @@ package indi.micro.common.exception;
 import java.io.Serial;
 
 /**
- * @author: yuluo
+ * @author: micro
  * @date: 2023/5/24 11:13
  * @description: some desc
  */

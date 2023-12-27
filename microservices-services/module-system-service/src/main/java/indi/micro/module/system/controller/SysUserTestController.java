@@ -1,8 +1,8 @@
-package indi.yuluo.module.system.controller;
+package indi.micro.module.system.controller;
 
-import indi.yuluo.common.domain.system.SysUser;
-import indi.yuluo.common.result.Result;
-import indi.yuluo.module.system.service.SysUserTestService;
+import indi.micro.common.domain.system.SysUser;
+import indi.micro.common.result.Result;
+import indi.micro.module.system.service.SysUserTestService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 
@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- * @author: yuluo
+ * @author: micro
  * @date: 2023/5/15 20:52
  * @description: some desc
  */
@@ -58,7 +58,7 @@ public class SysUserTestController {
 				.email("780879337@qq.com")
 				.password("123456")
 				.phonenumber("18198086793")
-				.nickName("yuluo")
+				.nickName("micro")
 				.build();
 
 		return Result.success(user);

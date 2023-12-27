@@ -1,4 +1,4 @@
-package indi.yuluo.module.system.service.impl;
+package indi.micro.module.system.service.impl;
 
 import java.util.HashMap;
 import java.util.List;
@@ -6,15 +6,15 @@ import java.util.Map;
 
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import indi.yuluo.common.domain.system.SysLoginInfo;
-import indi.yuluo.common.utils.StringUtils;
-import indi.yuluo.module.system.mapper.SysLoginInfoMapper;
-import indi.yuluo.module.system.service.SysLoginInfoService;
+import indi.micro.common.domain.system.SysLoginInfo;
+import indi.micro.common.utils.StringUtils;
+import indi.micro.module.system.mapper.SysLoginInfoMapper;
+import indi.micro.module.system.service.SysLoginInfoService;
 
 import org.springframework.stereotype.Service;
 
 /**
- * @author: yuluo
+ * @author: micro
  * @date: 2023/5/22 15:19
  * @description: SysLoginInfoServiceImpl
  */

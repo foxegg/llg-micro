@@ -1,17 +1,17 @@
-package indi.yuluo.module.system.service.impl;
+package indi.micro.module.system.service.impl;
 
 import java.util.Objects;
 import java.util.concurrent.TimeUnit;
 
 import cn.hutool.core.util.RandomUtil;
-import indi.yuluo.common.constant.CacheConstants;
-import indi.yuluo.common.constant.Constants;
-import indi.yuluo.common.exception.CaptchaException;
-import indi.yuluo.common.exception.EmailException;
-import indi.yuluo.common.mail.config.properties.MailProperties;
-import indi.yuluo.common.mail.utils.MailUtils;
-import indi.yuluo.common.redis.service.RedisService;
-import indi.yuluo.module.system.service.SysEmailService;
+import indi.micro.common.constant.CacheConstants;
+import indi.micro.common.constant.Constants;
+import indi.micro.common.exception.CaptchaException;
+import indi.micro.common.exception.EmailException;
+import indi.micro.common.mail.config.properties.MailProperties;
+import indi.micro.common.mail.utils.MailUtils;
+import indi.micro.common.redis.service.RedisService;
+import indi.micro.module.system.service.SysEmailService;
 import jakarta.annotation.Resource;
 import lombok.extern.slf4j.Slf4j;
 import org.thymeleaf.TemplateEngine;
@@ -20,7 +20,7 @@ import org.thymeleaf.context.Context;
 import org.springframework.stereotype.Service;
 
 /**
- * @author: yuluo
+ * @author: micro
  * @date: 2023/5/24 10:56
  * @description: SysEmailServiceImpl
  */
@@ -64,7 +64,7 @@ public class SysEmailServiceImpl implements SysEmailService {
 			context.setVariable("verifyCode", code);
 			// 第一个参数为模板的名称
 			String process = templateEngine.process("email.html", context); //这里不用写全路径
-			MailUtils.sendHtml(email, "Yuluo Microservice 邮箱登录验证码", process);
+			MailUtils.sendHtml(email, "micro Microservice 邮箱登录验证码", process);
 
 		} catch (Exception e) {
 

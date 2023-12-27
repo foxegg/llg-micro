@@ -9,7 +9,7 @@ import org.springframework.cloud.openfeign.FallbackFactory;
 import org.springframework.stereotype.Component;
 
 /**
- * @author: yuluo
+ * @author: micro
  * @date: 2023/5/24 13:12
  * @description: some desc
  */

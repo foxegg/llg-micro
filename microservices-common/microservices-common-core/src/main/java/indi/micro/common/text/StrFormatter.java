@@ -3,7 +3,7 @@ package indi.micro.common.text;
 import indi.micro.common.utils.StringUtils;
 
 /**
- * @author: yuluo
+ * @author: micro
  * @date: 2023/5/15 15:01
  * @description: 字符串格式化
  */

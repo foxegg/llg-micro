@@ -134,7 +134,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:9001/user/getUserInfoByUsername/yuluo",
+							"raw": "http://localhost:9001/user/getUserInfoByUsername/micro",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -143,7 +143,7 @@
 							"path": [
 								"user",
 								"getUserInfoByUsername",
-								"yuluo"
+								"micro"
 							]
 						}
 					},
@@ -314,7 +314,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"username\":\"yuluo\",\r\n    \"password\":\"123456\"\r\n}",
+							"raw": "{\r\n    \"username\":\"micro\",\r\n    \"password\":\"123456\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -403,7 +403,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"username\":\"yuluo\",\r\n    \"password\":\"123456\",\r\n    \"code\":\"0\",\r\n    \"uuid\":\"3558ffb5d5c3411e96f319f3fd38ce37\"\r\n}",
+							"raw": "{\r\n    \"username\":\"micro\",\r\n    \"password\":\"123456\",\r\n    \"code\":\"0\",\r\n    \"uuid\":\"3558ffb5d5c3411e96f319f3fd38ce37\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"

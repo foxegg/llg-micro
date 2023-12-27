@@ -16,7 +16,7 @@ import org.springframework.web.server.WebFilterChain;
 import reactor.core.publisher.Mono;
 
 /**
- * @author: yuluo
+ * @author: micro
  * @date: 2023/5/18 8:25
  * @description: 跨域配置
  */

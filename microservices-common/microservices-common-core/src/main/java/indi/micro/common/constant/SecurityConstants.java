@@ -1,7 +1,7 @@
 package indi.micro.common.constant;
 
 /**
- * @author: yuluo
+ * @author: micro
  * @date: 2023/5/19 17:14
  * @description: 权限相关通用常量
  */

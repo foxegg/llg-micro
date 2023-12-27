@@ -8,7 +8,7 @@ import org.springframework.beans.factory.config.ConfigurableListableBeanFactory;
 import org.springframework.stereotype.Component;
 
 /**
- * @author: yuluo
+ * @author: micro
  * @date: 2023/5/17 16:02
  * @description: spring工具类
  */

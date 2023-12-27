@@ -8,7 +8,7 @@ import indi.micro.common.Enum.impl.ResultEnum;
 import lombok.Data;
 
 /**
- * @author: yuluo
+ * @author: micro
  * @date: 2023/5/15 18:21
  * @description: 统一返回数据结果
  */

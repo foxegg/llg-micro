@@ -11,7 +11,7 @@ import com.google.code.kaptcha.util.Config;
 import static com.google.code.kaptcha.Constants.*;
 
 /**
- * @author: yuluo
+ * @author: micro
  * @date: 2023/5/15 18:18
  * @description: 验证码配置
  */

@@ -13,7 +13,7 @@ import com.alibaba.excel.metadata.property.ExcelContentProperty;
 import lombok.extern.slf4j.Slf4j;
 
 /**
- * @author: yuluo
+ * @author: micro
  * @date: 2023/5/27 10:19
  * @description: 大数值转换
  * Excel 数值长度位15位 大于15位的数值转换位字符串

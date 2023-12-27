@@ -10,7 +10,7 @@ import org.springframework.data.redis.serializer.RedisSerializer;
 import org.springframework.data.redis.serializer.SerializationException;
 
 /**
- * @author: yuluo
+ * @author: micro
  * @date: 2023/5/15 18:32
  * @description: Redis使用FastJson序列化
  */

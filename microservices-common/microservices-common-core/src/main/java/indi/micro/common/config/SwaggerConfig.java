@@ -28,7 +28,7 @@ import org.springframework.util.ReflectionUtils;
 import org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping;
 
 /**
- * @author: yuluo
+ * @author: micro
  * @date: 2023/5/15 15:09
  * @description: SwaggerConfig
  */

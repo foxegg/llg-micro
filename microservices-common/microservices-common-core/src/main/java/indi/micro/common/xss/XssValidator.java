@@ -8,7 +8,7 @@ import jakarta.validation.ConstraintValidatorContext;
 import indi.micro.common.utils.StringUtils;
 
 /**
- * @author: yuluo
+ * @author: micro
  * @date: 2023/5/17 19:16
  * @description: some desc
  */

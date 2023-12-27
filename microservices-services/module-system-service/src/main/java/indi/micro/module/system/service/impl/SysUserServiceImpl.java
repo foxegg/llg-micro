@@ -1,4 +1,4 @@
-package indi.yuluo.module.system.service.impl;
+package indi.micro.module.system.service.impl;
 
 import java.util.HashMap;
 import java.util.List;
@@ -6,16 +6,16 @@ import java.util.Map;
 
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import indi.yuluo.common.domain.system.SysUser;
-import indi.yuluo.module.system.mapper.SysRoleMapper;
-import indi.yuluo.module.system.mapper.SysUserMapper;
-import indi.yuluo.module.system.service.SysUserService;
+import indi.micro.common.domain.system.SysUser;
+import indi.micro.module.system.mapper.SysRoleMapper;
+import indi.micro.module.system.mapper.SysUserMapper;
+import indi.micro.module.system.service.SysUserService;
 import jakarta.annotation.Resource;
 
 import org.springframework.stereotype.Service;
 
 /**
- * @author: yuluo
+ * @author: micro
  * @date: 2023/5/22 15:08
  * @description: 用户服务层接口实现
  */

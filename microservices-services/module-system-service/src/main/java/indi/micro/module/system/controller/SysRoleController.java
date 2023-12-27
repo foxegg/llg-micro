@@ -1,15 +1,15 @@
-package indi.yuluo.module.system.controller;
+package indi.micro.module.system.controller;
 
 import java.util.List;
 import java.util.Map;
 
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
-import indi.yuluo.common.constant.SecurityConstants;
-import indi.yuluo.common.domain.system.SysRole;
-import indi.yuluo.common.log.annotation.Log;
-import indi.yuluo.common.log.enums.BusinessType;
-import indi.yuluo.common.result.Result;
-import indi.yuluo.module.system.service.SysRoleService;
+import indi.micro.common.constant.SecurityConstants;
+import indi.micro.common.domain.system.SysRole;
+import indi.micro.common.log.annotation.Log;
+import indi.micro.common.log.enums.BusinessType;
+import indi.micro.common.result.Result;
+import indi.micro.module.system.service.SysRoleService;
 import jakarta.annotation.Resource;
 import lombok.extern.slf4j.Slf4j;
 
@@ -22,7 +22,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- * @author: yuluo
+ * @author: micro
  * @date: 2023/5/22 15:10
  * @description: 系统用户权限控制器
  */

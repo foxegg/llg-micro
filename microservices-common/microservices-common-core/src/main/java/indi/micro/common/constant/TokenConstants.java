@@ -1,7 +1,7 @@
 package indi.micro.common.constant;
 
 /**
- * @author: yuluo
+ * @author: micro
  * @date: 2023/5/19 17:14
  * @description: Token的Key常量
  */

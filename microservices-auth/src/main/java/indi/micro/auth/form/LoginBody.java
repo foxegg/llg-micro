@@ -3,7 +3,7 @@ package indi.micro.auth.form;
 import indi.micro.common.domain.vo.user.User;
 
 /**
- * @author: yuluo
+ * @author: micro
  * @date: 2023/5/19 17:46
  * @description: 用户登录对象
  */

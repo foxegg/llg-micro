@@ -9,7 +9,7 @@ import indi.micro.common.ttl.context.UserContextHolder;
 import jakarta.servlet.http.HttpServletRequest;
 
 /**
- * @author: yuluo
+ * @author: micro
  * @date: 2023/5/22 18:09
  * @description: CurrentUserUtils
  */

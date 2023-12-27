@@ -13,7 +13,7 @@ import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
 /**
- * @author: yuluo
+ * @author: micro
  * @date: 2023/5/19 21:13
  * @description: Spring Security 的 用户对象信息
  */

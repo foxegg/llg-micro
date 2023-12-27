@@ -1,7 +1,7 @@
 package indi.micro.common.exception;
 
 /**
- * @author: yuluo
+ * @author: micro
  * @date: 2023/5/18 9:22
  * @description: 服务异常
  */

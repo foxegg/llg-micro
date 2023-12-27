@@ -1,4 +1,4 @@
-package indi.yuluo.data.jpa.service.impl;
+package indi.micro.data.jpa.service.impl;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
@@ -7,11 +7,11 @@ import org.springframework.data.domain.Pageable;
 import java.io.Serializable;
 import java.util.List;
 
-import indi.yuluo.data.jpa.repository.MongodbBaseRepository;
-import indi.yuluo.data.jpa.service.MongodbBaseService;
+import indi.micro.data.jpa.repository.MongodbBaseRepository;
+import indi.micro.data.jpa.service.MongodbBaseService;
 
 /**
- * @author: yuluo
+ * @author: micro
  * @date: 2023/5/15 15:59
  * @description: Mongodb Base ServiceImpl
  */

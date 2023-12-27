@@ -1,13 +1,13 @@
-package indi.yuluo.module.system.service;
+package indi.micro.module.system.service;
 
 import java.util.List;
 import java.util.Map;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import indi.yuluo.common.domain.system.SysOperLog;
+import indi.micro.common.domain.system.SysOperLog;
 
 /**
- * @author: yuluo
+ * @author: micro
  * @date: 2023/5/22 15:20
  * @description: SysOperLogService
  */

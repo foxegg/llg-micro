@@ -1,4 +1,4 @@
-package indi.yuluo.data.jpa.repository;
+package indi.micro.data.jpa.repository;
 
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
@@ -8,7 +8,7 @@ import org.springframework.data.repository.NoRepositoryBean;
 import java.io.Serializable;
 
 /**
- * @author: yuluo
+ * @author: micro
  * @date: 2023/5/15 15:59
  * @description: Mongodb Base Repository
  */

@@ -40,11 +40,11 @@ knife4j:
 swagger:
   enabled: true
   title: 系统服务
-  base-package: indi.yuluo.system
+  base-package: indi.micro.system
   version: V2023.12.25
   description: 系统服务管理
   license: Apache License, Version 2.0
   license-url: https://www.apache.org/licenses/LICENSE-2.0.html
   terms-of-service-url: http://${spring.cloud.nacos.discovery.ip}:${server.port}/doc.html
-  author: yuluo
-  contact: yuluo829@aliyun.com
+  author: micro
+  contact: micro829@aliyun.com

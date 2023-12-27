@@ -28,7 +28,7 @@ import org.springframework.stereotype.Component;
 import org.springframework.web.server.ServerWebExchange;
 
 /**
- * @author: yuluo
+ * @author: micro
  * @date: 2023/5/15 20:03
  * @description: 网关鉴权
  */

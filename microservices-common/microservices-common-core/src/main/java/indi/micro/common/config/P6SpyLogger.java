@@ -5,7 +5,7 @@ import java.time.LocalDateTime;
 import com.p6spy.engine.spy.appender.MessageFormattingStrategy;
 
 /**
- * @author: yuluo
+ * @author: micro
  * @date: 2023/5/25 11:05
  * @description: 用来自己配置自定义日志文件打印，替换如下配置即可
  * logMessageFormat=com.baomidou.mybatisplus.extension.p6spy.P6SpyLogger

@@ -1,7 +1,7 @@
 package indi.micro.common.constant;
 
 /**
- * @author: yuluo
+ * @author: micro
  * @date: 2023/5/16 20:14
  * @description: 服务名称
  */

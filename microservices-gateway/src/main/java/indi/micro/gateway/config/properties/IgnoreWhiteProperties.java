@@ -11,7 +11,7 @@ import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.context.annotation.Configuration;
 
 /**
- * @author: yuluo
+ * @author: micro
  * @date: 2023/5/18 8:38
  * @description: 放行白名单配置
  */

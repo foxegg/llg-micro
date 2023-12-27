@@ -14,7 +14,7 @@ import indi.micro.common.Enum.SensitiveStrategy;
 import indi.micro.common.annotation.Sensitive;
 
 /**
- * @author: yuluo
+ * @author: micro
  * @date: 2023/3/27 17:49
  * @description:  序列化注解自定义实现
  * JsonSerializer<String>：指定String 类型，serialize()方法用于将修改后的数据载入

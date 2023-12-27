@@ -1,18 +1,18 @@
-package indi.yuluo.module.system.service.impl;
+package indi.micro.module.system.service.impl;
 
 import java.util.List;
 import java.util.Map;
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import indi.yuluo.common.domain.system.SysRole;
-import indi.yuluo.module.system.mapper.SysRoleMapper;
-import indi.yuluo.module.system.service.SysRoleService;
+import indi.micro.common.domain.system.SysRole;
+import indi.micro.module.system.mapper.SysRoleMapper;
+import indi.micro.module.system.service.SysRoleService;
 
 import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.GetMapping;
 
 /**
- * @author: yuluo
+ * @author: micro
  * @date: 2023/5/22 15:21
  * @description: SysRoleServiceImpl
  */

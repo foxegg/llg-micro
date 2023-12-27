@@ -6,7 +6,7 @@ import indi.micro.common.exception.CaptchaException;
 import indi.micro.common.result.Result;
 
 /**
- * @author: yuluo
+ * @author: micro
  * @date: 2023/5/15 18:20
  * @description: some desc
  */

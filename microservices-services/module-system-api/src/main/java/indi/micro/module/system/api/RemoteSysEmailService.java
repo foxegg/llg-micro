@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 
 /**
- * @author: yuluo
+ * @author: micro
  * @date: 2023/5/24 13:11
  * @description: RemoteSysEmailService
  */

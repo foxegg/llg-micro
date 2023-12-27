@@ -11,7 +11,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 /**
- * @author: yuluo
+ * @author: micro
  * @date: 2023/5/15 20:10
  * @description: HTML过滤器，用于去除XSS漏洞隐患。
  */

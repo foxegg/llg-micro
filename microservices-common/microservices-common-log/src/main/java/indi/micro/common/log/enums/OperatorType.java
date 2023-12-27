@@ -1,7 +1,7 @@
 package indi.micro.common.log.enums;
 
 /**
- * @author: yuluo
+ * @author: micro
  * @date: 2023/5/17 18:57
  * @description: 操作人类别
  */

@@ -13,7 +13,7 @@ import org.springframework.cloud.openfeign.FallbackFactory;
 import org.springframework.stereotype.Component;
 
 /**
- * @author: yuluo
+ * @author: micro
  * @date: 2023/5/16 20:04
  * @description: 系统权限服务降级处理
  */

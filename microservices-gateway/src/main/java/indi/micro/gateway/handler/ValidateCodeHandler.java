@@ -16,7 +16,7 @@ import indi.micro.gateway.service.ValidateCodeService;
 import reactor.core.publisher.Mono;
 
 /**
- * @author: yuluo
+ * @author: micro
  * @date: 2023/5/15 19:57
  * @description: 验证码获取
  */

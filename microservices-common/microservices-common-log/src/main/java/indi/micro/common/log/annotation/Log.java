@@ -10,7 +10,7 @@ import indi.micro.common.log.enums.BusinessType;
 import indi.micro.common.log.enums.OperatorType;
 
 /**
- * @author: yuluo
+ * @author: micro
  * @date: 2023/5/17 18:55
  * @description: 自定义操作日志记录注解
  */

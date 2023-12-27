@@ -9,7 +9,7 @@ import java.lang.annotation.Target;
 import org.springframework.cloud.openfeign.EnableFeignClients;
 
 /**
- * @author: yuluo
+ * @author: micro
  * @date: 2023/5/22 19:53
  * @description: 自定义feign注解，添加basePackages路径
  */
@@ -18,10 +18,10 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 @Retention(RetentionPolicy.RUNTIME)
 @Documented
 @EnableFeignClients
-public @interface EnableYuluoFeignClients {
+public @interface EnableMicroFeignClients {
 	String[] value() default {};
 
-	String[] basePackages() default { "indi.yuluo" };
+	String[] basePackages() default { "indi.micro" };
 
 	Class<?>[] basePackageClasses() default {};
 

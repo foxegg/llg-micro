@@ -5,7 +5,7 @@ import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
 /**
- * @author: yuluo
+ * @author: micro
  * @date: 2023/5/17 17:15
  * @description: JavaMail 配置属性
  */

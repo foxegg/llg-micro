@@ -1,7 +1,7 @@
-package indi.yuluo.module.system.controller;
+package indi.micro.module.system.controller;
 
-import indi.yuluo.common.result.Result;
-import indi.yuluo.module.system.service.SysEmailService;
+import indi.micro.common.result.Result;
+import indi.micro.module.system.service.SysEmailService;
 import jakarta.annotation.Resource;
 import lombok.extern.slf4j.Slf4j;
 
@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- * @author: yuluo
+ * @author: micro
  * @date: 2023/5/24 10:49
  * @description: SysEmailController
  */

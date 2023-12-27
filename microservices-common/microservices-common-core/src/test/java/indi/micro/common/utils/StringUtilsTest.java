@@ -3,7 +3,7 @@ package indi.micro.common.utils;
 import org.junit.jupiter.api.Test;
 
 /**
- * @author: yuluo
+ * @author: micro
  * @date: 2023/5/15 16:32
  * @description: some desc
  */

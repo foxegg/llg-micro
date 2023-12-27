@@ -5,7 +5,7 @@ import java.util.Random;
 import com.google.code.kaptcha.text.impl.DefaultTextCreator;
 
 /**
- * @author: yuluo
+ * @author: micro
  * @date: 2023/5/19 17:21
  * @description: 验证码文本生成器
  */

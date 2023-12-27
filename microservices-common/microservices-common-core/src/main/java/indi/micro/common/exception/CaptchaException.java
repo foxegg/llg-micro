@@ -3,7 +3,7 @@ package indi.micro.common.exception;
 import java.io.Serial;
 
 /**
- * @author: yuluo
+ * @author: micro
  * @date: 2023/5/15 18:29
  * @description: 验证码错误异常类
  */

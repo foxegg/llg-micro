@@ -8,7 +8,7 @@ import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.context.annotation.Configuration;
 
 /**
- * @author: yuluo
+ * @author: micro
  * @date: 2023/5/15 20:07
  * @description: XSS跨站脚本配置
  */

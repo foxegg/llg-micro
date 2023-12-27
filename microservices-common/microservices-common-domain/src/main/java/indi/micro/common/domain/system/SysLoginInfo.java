@@ -13,7 +13,7 @@ import lombok.NoArgsConstructor;
 
 
 /**
- * @author: yuluo
+ * @author: micro
  * @date: 2023/5/22 15:16
  * @description: 系统访问记录表 sys_login_info
  */

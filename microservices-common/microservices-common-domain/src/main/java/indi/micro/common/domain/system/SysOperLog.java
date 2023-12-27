@@ -15,7 +15,7 @@ import com.fasterxml.jackson.annotation.JsonFormat;
 import indi.micro.common.domain.base.BaseEntity;
 
 /**
- * @author: yuluo
+ * @author: micro
  * @date: 2023/5/17 19:14
  * @description: 操作日志记录表 oper_log
  */

@@ -42,14 +42,14 @@ CREATE TABLE `sys_login_info`  (
 -- ----------------------------
 -- Records of sys_login_info
 -- ----------------------------
-INSERT INTO `sys_login_info` VALUES ('1660979717901316097', 'yuluo', '0', '127.0.0.1', NULL, NULL, NULL, '登录成功', NULL);
-INSERT INTO `sys_login_info` VALUES ('1660983370867470338', 'yuluo', '0', '127.0.0.1', NULL, NULL, NULL, '登录成功', NULL);
-INSERT INTO `sys_login_info` VALUES ('1660986378338590721', 'yuluo', '0', '127.0.0.1', NULL, NULL, NULL, '登录成功', NULL);
-INSERT INTO `sys_login_info` VALUES ('1660988852348784641', 'yuluo', '0', '127.0.0.1', NULL, NULL, NULL, '退出成功', NULL);
-INSERT INTO `sys_login_info` VALUES ('1660988925740716033', 'yuluo', '0', '127.0.0.1', NULL, NULL, NULL, '登录成功', NULL);
-INSERT INTO `sys_login_info` VALUES ('1660995641974902785', 'yuluo', '0', '127.0.0.1', NULL, NULL, NULL, '登录成功', NULL);
-INSERT INTO `sys_login_info` VALUES ('1661004926062620673', 'yuluo', '0', '127.0.0.1', '内网IP', 'Chrome', 'Windows 10 or Windows Server 2016', '登录成功', '2023-05-23 13:43:29');
-INSERT INTO `sys_login_info` VALUES ('1661573949384982530', 'yuluo', '0', '127.0.0.1', '内网IP', 'Unknown', 'Unknown', '登录成功', '2023-05-25 03:24:35');
+INSERT INTO `sys_login_info` VALUES ('1660979717901316097', 'micro', '0', '127.0.0.1', NULL, NULL, NULL, '登录成功', NULL);
+INSERT INTO `sys_login_info` VALUES ('1660983370867470338', 'micro', '0', '127.0.0.1', NULL, NULL, NULL, '登录成功', NULL);
+INSERT INTO `sys_login_info` VALUES ('1660986378338590721', 'micro', '0', '127.0.0.1', NULL, NULL, NULL, '登录成功', NULL);
+INSERT INTO `sys_login_info` VALUES ('1660988852348784641', 'micro', '0', '127.0.0.1', NULL, NULL, NULL, '退出成功', NULL);
+INSERT INTO `sys_login_info` VALUES ('1660988925740716033', 'micro', '0', '127.0.0.1', NULL, NULL, NULL, '登录成功', NULL);
+INSERT INTO `sys_login_info` VALUES ('1660995641974902785', 'micro', '0', '127.0.0.1', NULL, NULL, NULL, '登录成功', NULL);
+INSERT INTO `sys_login_info` VALUES ('1661004926062620673', 'micro', '0', '127.0.0.1', '内网IP', 'Chrome', 'Windows 10 or Windows Server 2016', '登录成功', '2023-05-23 13:43:29');
+INSERT INTO `sys_login_info` VALUES ('1661573949384982530', 'micro', '0', '127.0.0.1', '内网IP', 'Unknown', 'Unknown', '登录成功', '2023-05-25 03:24:35');
 
 -- ----------------------------
 -- Table structure for sys_oper_log
@@ -79,9 +79,9 @@ CREATE TABLE `sys_oper_log`  (
 -- ----------------------------
 -- Records of sys_oper_log
 -- ----------------------------
-INSERT INTO `sys_oper_log` VALUES ('1660996241441607681', '更新权限测试操作', '2', 'indi.yuluo.module.system.controller.SysRoleController.updateRoleTest()', 'PUT', '1', 'yuluo', '/role/updateTest', '127.0.0.1', '', NULL, '1', '\r\n### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry \'123457\' for key \'sys_role.PRIMARY\'\r\n### The error may exist in indi/yuluo/module/system/mapper/SysRoleMapper.java (best guess)\r\n### The error may involve indi.yuluo.module.system.mapper.SysRoleMapper.insert-Inline\r\n### The error occurred while setting parameters\r\n### SQL: INSERT INTO sys_role  ( role_id, role_name, role_key, role_sort, status, del_flag, create_time, update_time )  VALUES  ( ?, ?, ?, ?, ?, ?, ?, ? )\r\n### Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry \'123457\' for key \'sys_role.PRIMARY\'\n; Duplicate entry \'123457\' for key \'sys_role.PRIMARY\'', NULL, '1', NULL, NULL);
-INSERT INTO `sys_oper_log` VALUES ('1660996320567152641', '更新权限测试操作', '2', 'indi.yuluo.module.system.controller.SysRoleController.updateRoleTest()', 'PUT', '1', 'yuluo', '/role/updateTest', '127.0.0.1', '', '{\"code\":8291,\"data\":true,\"message\":\"接口调用成功\"}', '0', NULL, NULL, '6', NULL, NULL);
-INSERT INTO `sys_oper_log` VALUES ('1661005119604584449', '更新权限测试操作', '2', 'indi.yuluo.module.system.controller.SysRoleController.updateRoleTest()', 'PUT', '1', 'yuluo', '/role/updateTest', '127.0.0.1', '', '{\"code\":8291,\"data\":true,\"message\":\"接口调用成功\"}', '0', NULL, NULL, '161', '2023-05-23 13:44:15', NULL);
+INSERT INTO `sys_oper_log` VALUES ('1660996241441607681', '更新权限测试操作', '2', 'indi.micro.module.system.controller.SysRoleController.updateRoleTest()', 'PUT', '1', 'micro', '/role/updateTest', '127.0.0.1', '', NULL, '1', '\r\n### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry \'123457\' for key \'sys_role.PRIMARY\'\r\n### The error may exist in indi/micro/module/system/mapper/SysRoleMapper.java (best guess)\r\n### The error may involve indi.micro.module.system.mapper.SysRoleMapper.insert-Inline\r\n### The error occurred while setting parameters\r\n### SQL: INSERT INTO sys_role  ( role_id, role_name, role_key, role_sort, status, del_flag, create_time, update_time )  VALUES  ( ?, ?, ?, ?, ?, ?, ?, ? )\r\n### Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry \'123457\' for key \'sys_role.PRIMARY\'\n; Duplicate entry \'123457\' for key \'sys_role.PRIMARY\'', NULL, '1', NULL, NULL);
+INSERT INTO `sys_oper_log` VALUES ('1660996320567152641', '更新权限测试操作', '2', 'indi.micro.module.system.controller.SysRoleController.updateRoleTest()', 'PUT', '1', 'micro', '/role/updateTest', '127.0.0.1', '', '{\"code\":8291,\"data\":true,\"message\":\"接口调用成功\"}', '0', NULL, NULL, '6', NULL, NULL);
+INSERT INTO `sys_oper_log` VALUES ('1661005119604584449', '更新权限测试操作', '2', 'indi.micro.module.system.controller.SysRoleController.updateRoleTest()', 'PUT', '1', 'micro', '/role/updateTest', '127.0.0.1', '', '{\"code\":8291,\"data\":true,\"message\":\"接口调用成功\"}', '0', NULL, NULL, '161', '2023-05-23 13:44:15', NULL);
 
 -- ----------------------------
 -- Table structure for sys_role
@@ -131,6 +131,6 @@ CREATE TABLE `sys_user`  (
 -- ----------------------------
 -- Records of sys_user
 -- ----------------------------
-INSERT INTO `sys_user` VALUES ('1', '$2a$10$9jL5Lu3X7.KmI0TVJpgYeOwoEvkOKloDBsfSBS9lzpb1Hgbp9n8pe', 'yuluo', 'yuluo', 'yuluo829@aliyun.com', '18198086793', '123456', '男', '123.jpg', '0', '127.0.0.1', NULL, '0', NULL, NULL);
+INSERT INTO `sys_user` VALUES ('1', '$2a$10$9jL5Lu3X7.KmI0TVJpgYeOwoEvkOKloDBsfSBS9lzpb1Hgbp9n8pe', 'micro', 'micro', 'micro829@aliyun.com', '18198086793', '123456', '男', '123.jpg', '0', '127.0.0.1', NULL, '0', NULL, NULL);
 
 SET FOREIGN_KEY_CHECKS = 1;

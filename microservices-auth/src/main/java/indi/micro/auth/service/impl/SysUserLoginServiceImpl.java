@@ -39,7 +39,7 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
 /**
- * @author: yuluo
+ * @author: micro
  * @date: 2023/5/19 21:32
  * @description: 用户登录服务实现类
  */

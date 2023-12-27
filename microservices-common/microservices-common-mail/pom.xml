@@ -5,13 +5,13 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
-		<groupId>indi.yuluo</groupId>
+		<groupId>indi.micro</groupId>
 		<artifactId>microservices-common</artifactId>
 		<version>2023.12.25</version>
 	</parent>
 
 	<artifactId>microservices-common-mail</artifactId>
-	<description> yuluo microservices common mail </description>
+	<description> micro microservices common mail </description>
 	<packaging>jar</packaging>
 
 	<properties>
@@ -30,7 +30,7 @@
 	<dependencies>
 
 		<dependency>
-			<groupId>indi.yuluo</groupId>
+			<groupId>indi.micro</groupId>
 			<artifactId>microservices-common-core</artifactId>
 			<version>${reversion}</version>
 		</dependency>

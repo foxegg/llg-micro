@@ -3,7 +3,7 @@ package indi.micro.common.constant;
 import java.nio.charset.StandardCharsets;
 
 /**
- * @author: yuluo
+ * @author: micro
  * @date: 2023/5/15 15:09
  * @description: 通用常量信息
  */

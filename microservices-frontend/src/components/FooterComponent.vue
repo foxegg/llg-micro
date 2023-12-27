@@ -3,7 +3,7 @@
         <div class="content">
             <div class="licontent">
                 <ul>
-                    <h5 class="title">Yuluo MicroServices Framework</h5>
+                    <h5 class="title">micro MicroServices Framework</h5>
                     <br>
                     <p class="pcontent">快速微服务开发框架</p>
                 </ul>
@@ -29,7 +29,7 @@
                 </ul>
             </div>
         </div>
-        <p class="copyright">CpoyRight@Arthas by yuluo</p>
+        <p class="copyright">CpoyRight@Arthas by micro</p>
     </div>
 </template>
   

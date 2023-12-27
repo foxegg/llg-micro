@@ -4,13 +4,13 @@
 		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
-		<groupId>indi.yuluo</groupId>
+		<groupId>indi.micro</groupId>
 		<artifactId>microservices-services</artifactId>
 		<version>2023.12.25</version>
 	</parent>
 
 	<artifactId>module-system-service</artifactId>
-	<description> yuluo module system service </description>
+	<description> micro module system service </description>
 
 	<properties>
 
@@ -27,7 +27,7 @@
 
 	<dependencies>
 		<dependency>
-			<groupId>indi.yuluo</groupId>
+			<groupId>indi.micro</groupId>
 			<artifactId>microservices-common-domain</artifactId>
 			<version>${reversion}</version>
 			<!-- 排除 Spring Security -->
@@ -41,20 +41,20 @@
 
 		<!-- Mybatis-plus -->
 		<dependency>
-			<groupId>indi.yuluo</groupId>
+			<groupId>indi.micro</groupId>
 			<artifactId>microservices-data-mybatis</artifactId>
 			<version>${reversion}</version>
 		</dependency>
 
-		<!-- Yuluo Microservice Common Log -->
+		<!-- micro Microservice Common Log -->
 		<dependency>
-			<groupId>indi.yuluo</groupId>
+			<groupId>indi.micro</groupId>
 			<artifactId>microservices-common-log</artifactId>
 			<version>${reversion}</version>
 		</dependency>
 
 		<dependency>
-			<groupId>indi.yuluo</groupId>
+			<groupId>indi.micro</groupId>
 			<artifactId>microservices-common-excel</artifactId>
 			<version>${reversion}</version>
 			<!-- 排除 Spring Security -->
@@ -82,7 +82,7 @@
 		</dependency>
 
 		<dependency>
-			<groupId>indi.yuluo</groupId>
+			<groupId>indi.micro</groupId>
 			<artifactId>microservices-common-mail</artifactId>
 			<version>${reversion}</version>
 			<exclusions>
@@ -94,7 +94,7 @@
 		</dependency>
 
 		<dependency>
-			<groupId>indi.yuluo</groupId>
+			<groupId>indi.micro</groupId>
 			<artifactId>microservices-common-redis</artifactId>
 			<version>${reversion}</version>
 			<exclusions>

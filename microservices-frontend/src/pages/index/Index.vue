@@ -1,6 +1,6 @@
 <template>
   <div>
-    <el-button type="success">欢迎使用 yuluo microservice framework</el-button>
+    <el-button type="success">欢迎使用 micro microservice framework</el-button>
     <el-button type="primary" @click="exportLoginInfo">导出系统访问日志</el-button>
     <el-button type="primary" @click="exportOperLog">导出系统操作日志</el-button>
     <el-button type="primary" @click=update()>更新权限写入用户操作日志测试按钮，执行之后请查看数据库日志信息</el-button>

@@ -15,7 +15,7 @@ import org.apache.commons.lang3.builder.ToStringBuilder;
 import org.apache.commons.lang3.builder.ToStringStyle;
 
 /**
- * @author: yuluo
+ * @author: micro
  * @date: 2023/5/17 19:39
  * @description: 角色表 sys_role
  */

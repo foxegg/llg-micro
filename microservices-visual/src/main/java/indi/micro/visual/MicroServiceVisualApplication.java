@@ -6,18 +6,18 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
- * @author: yuluo
+ * @author: micro
  * @date: 2023/5/24 13:58
- * @description: YuluoMicroServiceVisual
+ * @description: MicroServiceVisual
  */
 
 @EnableAdminServer
 @SpringBootApplication
-public class YuluoMicroServiceVisualApplication {
+public class MicroServiceVisualApplication {
 
 	public static void main(String[] args) {
 
-		SpringApplication.run(YuluoMicroServiceVisualApplication.class);
+		SpringApplication.run(MicroServiceVisualApplication.class);
 		System.out.println("admin 监控启动……");
 	}
 

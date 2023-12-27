@@ -1,7 +1,7 @@
 package indi.micro.common.constant;
 
 /**
- * @author: yuluo
+ * @author: micro
  * @date: 2023/5/15 19:28
  * @description: 缓存常量信息
  */

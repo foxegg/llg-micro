@@ -22,7 +22,7 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 
 /**
- * @author: yuluo
+ * @author: micro
  * @date: 2023/5/19 17:46
  * @description: Application Configuration
  */

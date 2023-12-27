@@ -1,4 +1,4 @@
-package indi.yuluo.data.mybatis.config;
+package indi.micro.data.mybatis.config;
 
 import cn.hutool.core.net.NetUtil;
 import com.baomidou.mybatisplus.core.handlers.MetaObjectHandler;
@@ -7,7 +7,7 @@ import com.baomidou.mybatisplus.core.incrementer.IdentifierGenerator;
 import com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor;
 import com.baomidou.mybatisplus.extension.plugins.inner.OptimisticLockerInnerInterceptor;
 import com.baomidou.mybatisplus.extension.plugins.inner.PaginationInnerInterceptor;
-import indi.yuluo.data.mybatis.handler.CreateAndUpdateMetaObjectHandler;
+import indi.micro.data.mybatis.handler.CreateAndUpdateMetaObjectHandler;
 import org.mybatis.spring.annotation.MapperScan;
 
 import org.springframework.boot.autoconfigure.AutoConfiguration;
@@ -16,7 +16,7 @@ import org.springframework.context.annotation.Primary;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 /**
- * @author: yuluo
+ * @author: micro
  * @date: 2023/5/18 9:18
  * @description: mybatis-plus配置类(下方注释有插件介绍)
  */

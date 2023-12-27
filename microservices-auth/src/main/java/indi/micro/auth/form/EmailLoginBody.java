@@ -3,7 +3,7 @@ package indi.micro.auth.form;
 import lombok.Data;
 
 /**
- * @author: yuluo
+ * @author: micro
  * @date: 2023/5/22 14:53
  * @description: 邮箱登录对象
  */

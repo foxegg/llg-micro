@@ -1,7 +1,7 @@
 package indi.micro.common.utils.uuid;
 
 /**
- * @author: yuluo
+ * @author: micro
  * @date: 2023/5/15 14:53
  * @description: ID 工具类
  */

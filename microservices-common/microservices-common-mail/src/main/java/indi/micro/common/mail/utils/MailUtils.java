@@ -19,7 +19,7 @@ import lombok.AccessLevel;
 import lombok.NoArgsConstructor;
 
 /**
- * @author: yuluo
+ * @author: micro
  * @date: 2023/5/17 15:53
  * @description: 邮件工具类
  */

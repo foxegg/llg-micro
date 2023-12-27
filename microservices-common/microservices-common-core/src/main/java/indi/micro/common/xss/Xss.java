@@ -9,7 +9,7 @@ import jakarta.validation.Constraint;
 import jakarta.validation.Payload;
 
 /**
- * @author: yuluo
+ * @author: micro
  * @date: 2023/5/17 19:15
  * @description: 自定义xss校验注解
  */

@@ -18,7 +18,7 @@ import io.jsonwebtoken.security.Keys;
 import org.springframework.security.core.userdetails.UserDetails;
 
 /**
- * @author: yuluo
+ * @author: micro
  * @date: 2023/5/19 17:13
  * @description: JWT 工具类
  */

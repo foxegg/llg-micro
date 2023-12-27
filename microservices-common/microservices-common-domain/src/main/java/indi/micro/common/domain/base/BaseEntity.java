@@ -13,7 +13,7 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonInclude;
 
 /**
- * @author: yuluo
+ * @author: micro
  * @date: 2023/5/17 19:32
  * @description: Entity基类
  */

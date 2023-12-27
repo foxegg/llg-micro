@@ -12,7 +12,7 @@ import indi.micro.common.config.SensitiveJsonSerializer;
 
 
 /**
- * @author: yuluo
+ * @author: micro
  * @date: 2023/3/27 17:48
  * @description: 脱敏注解
  */

@@ -10,7 +10,7 @@ import java.util.concurrent.ThreadLocalRandom;
 import indi.micro.common.exception.UtilException;
 
 /**
- * @author: yuluo
+ * @author: micro
  * @date: 2023/5/15 14:55
  * @description: 提供通用唯一识别码（universally unique identifier）（UUID）实现
  */

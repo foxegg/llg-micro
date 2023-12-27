@@ -13,7 +13,7 @@ import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.stereotype.Component;
 
 /**
- * @author: yuluo
+ * @author: micro
  * @date: 2023/5/22 19:26
  * @description: feign 请求拦截器
  */

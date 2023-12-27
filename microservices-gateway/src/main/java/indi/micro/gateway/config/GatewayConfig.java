@@ -8,7 +8,7 @@ import org.springframework.core.Ordered;
 import org.springframework.core.annotation.Order;
 
 /**
- * @author: yuluo
+ * @author: micro
  * @date: 2023/5/15 19:44
  * @description: 网关限流配置
  */

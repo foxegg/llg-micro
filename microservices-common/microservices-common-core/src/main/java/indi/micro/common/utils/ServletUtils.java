@@ -32,7 +32,7 @@ import org.springframework.web.context.request.RequestContextHolder;
 import org.springframework.web.context.request.ServletRequestAttributes;
 
 /**
- * @author: yuluo
+ * @author: micro
  * @date: 2023/5/15 15:31
  * @description: 客户端工具类
  */

@@ -11,7 +11,7 @@ import org.springframework.security.config.http.SessionCreationPolicy;
 import org.springframework.security.web.SecurityFilterChain;
 
 /**
- * @author: yuluo
+ * @author: micro
  * @date: 2023/5/20 15:52
  * @description: some desc
  */
