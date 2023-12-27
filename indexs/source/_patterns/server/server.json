@@ -7,5 +7,5 @@
 		"title": "android code",
 		"description": "google play android客户端"
 	},
-	"htmlText":"<iframe src='../../README.md' width='100%' height='500px'></iframe>"
+	"htmlText":"<iframe src='../../README.html' width='100%' height='100%'></iframe>"
 }
