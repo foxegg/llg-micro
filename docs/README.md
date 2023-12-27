@@ -2,7 +2,7 @@
 order: 7
 ---
 
-# yuluo-microservice
+# microservice
 
 ![logo](./logo.png)
 
@@ -66,25 +66,25 @@ order: 7
 
 ## 代码结构
 ```markdwon
-|--yuluo-microservices-parent
-|--|--yuluo-microservices-auth              # 微服务权限模块
-|--|--yuluo-microservices-common            # 微服务通用模块
-|--|--|--yuluo-microservices-common-core    # 核心模块，工具类和依赖管理
-|--|--|--yuluo-microservices-common-domain  # domain实体模块，存放实体类型
-|--|--|--yuluo-microservices-common-mail    # 邮件模块，集成邮件功能
-|--|--|--yuluo-microservices-common-log     # 日志模块，集成日志功能
-|--|--|--yuluo-microservices-common-redis   # redis模块，集成redis功能
-|--|--|--yuluo-microservices-common-TTL     # 线程间传递用户信息
-|--|--yuluo-microservices-data              # 微服务数据模块
-|--|--|--yuluo-microservices-data-jpa       # 基于MongoDB封装JPA数据接口
-|--|--|--yuluo-microservices-data-mybatis   # 基于MyBatis-plus封装
-|--|--yuluo-microservices-gateway           # 微服务网关
-|--|--yuluo-microservices-docker            # 微服务部署模块，提供docker-compose部署方案
-|--|--yuluo-microservices-frontend          # 微服务前端模块
-|--|--yuluo-microservices-services          # 微服务模块
-|--|--|--yuluo-module-system-api            # 系统调用API
-|--|--|--yuluo-module-system-service        # 服务服务实现模块
-|--|--yuluo-microservices-visual            # 微服务监控模块
+|--microservices-parent
+|--|--microservices-auth              # 微服务权限模块
+|--|--microservices-common            # 微服务通用模块
+|--|--|--microservices-common-core    # 核心模块，工具类和依赖管理
+|--|--|--microservices-common-domain  # domain实体模块，存放实体类型
+|--|--|--microservices-common-mail    # 邮件模块，集成邮件功能
+|--|--|--microservices-common-log     # 日志模块，集成日志功能
+|--|--|--microservices-common-redis   # redis模块，集成redis功能
+|--|--|--microservices-common-TTL     # 线程间传递用户信息
+|--|--microservices-data              # 微服务数据模块
+|--|--|--microservices-data-jpa       # 基于MongoDB封装JPA数据接口
+|--|--|--microservices-data-mybatis   # 基于MyBatis-plus封装
+|--|--microservices-gateway           # 微服务网关
+|--|--microservices-docker            # 微服务部署模块，提供docker-compose部署方案
+|--|--microservices-frontend          # 微服务前端模块
+|--|--microservices-services          # 微服务模块
+|--|--|--module-system-api            # 系统调用API
+|--|--|--module-system-service        # 服务服务实现模块
+|--|--microservices-visual            # 微服务监控模块
 ```
 
 ## 项目启动基本步骤

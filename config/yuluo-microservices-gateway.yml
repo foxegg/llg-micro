@@ -20,7 +20,7 @@ spring:
         # 路由ID，保持唯一
         - id: system-service
           # 目标服务地址
-          uri: lb://yuluo-module-system-service
+          uri: lb://module-system-service
           # 断言（路由条件）
           predicates:
             - Path=/sys/**
@@ -30,7 +30,7 @@ spring:
             - StripPrefix=1
 
         - id: system-auth
-          uri: lb://yuluo-microservices-auth
+          uri: lb://microservices-auth
           predicates:
             - Path=/token/**
           filters:

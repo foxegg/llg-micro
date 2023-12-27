@@ -1,0 +1,6 @@
+indi.micro.module.system.api.factory.RemoteSysRoleFallbackFactory
+indi.micro.module.system.api.factory.RemoteSysUserFallbackFactory
+indi.micro.module.system.api.factory.RemoteSysOperLogFallbackFactory
+indi.micro.module.system.api.factory.RemoteSysUserTestFallbackFactory
+indi.micro.module.system.api.factory.RemoteSysLoginInfoFallbackFactory
+indi.micro.module.system.api.factory.RemoteSysEmailFallbackFactory

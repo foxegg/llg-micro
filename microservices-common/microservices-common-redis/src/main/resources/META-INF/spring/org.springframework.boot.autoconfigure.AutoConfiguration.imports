@@ -1,0 +1,2 @@
+indi.micro.common.redis.config.RedisConfig
+indi.micro.common.redis.service.RedisService

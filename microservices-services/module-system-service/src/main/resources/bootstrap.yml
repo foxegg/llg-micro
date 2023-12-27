@@ -1,0 +1,36 @@
+# Tomcat
+server:
+  port: 9001
+
+# Spring
+spring:
+  application:
+    # 应用名称
+    name: module-system-service
+  profiles:
+    # 环境配置
+    active: dev
+
+  cloud:
+    nacos:
+      discovery:
+        # 服务注册地址
+        server-addr: 192.168.3.3:8848
+        namespace: 565e1057-af59-4b39-b789-a244605da8b3
+      config:
+        # 配置中心地址
+        server-addr: 192.168.3.3:8848
+        namespace: 565e1057-af59-4b39-b789-a244605da8b3
+
+  # 配置文件监听
+  config:
+    import:
+      - optional:nacos:module-system-service.yml
+      - optional:nacos:microservices-common.yml?refreshEnabled=true
+      - nacos:microservices-common.yml
+      - optional:nacos:microservices-mail.yml?refreshEnabled=true
+      - nacos:microservices-mail.yml
+
+#logging:
+#  level:
+#    root: debug

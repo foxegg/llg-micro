@@ -5,7 +5,7 @@
  Source Server Type    : MySQL
  Source Server Version : 80025
  Source Host           : localhost:3306
- Source Schema         : yuluo-microservices
+ Source Schema         : microservices
 
  Target Server Type    : MySQL
  Target Server Version : 80025
@@ -14,9 +14,9 @@
  Date: 25/05/2023 11:41:18
 */
 
-create yuluo-microservices
+create microservices
 
-use yuluo-microservices
+use microservices
 
 
 SET NAMES utf8mb4;
