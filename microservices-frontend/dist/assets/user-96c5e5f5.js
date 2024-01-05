@@ -1,0 +1,1 @@
+import{g as s,a as t,b as a}from"./axios-8a97e361.js";const g="/assets/logo-f27a0ff8.png",n=o=>t("/token/auth/login",o),u=o=>a("/token/auth/logout",o),l=o=>s("/code",o);export{n as a,l as g,g as l,u};

@@ -1,25 +1,18 @@
 {
-  "name": "pattern-lab",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "vue-project",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "pl:build": "patternlab build --config ./patternlab-config.json",
-    "pl:help": "patternlab --help",
-    "pl:install": "patternlab install --config ./patternlab-config.json",
-    "pl:serve": "patternlab serve --config ./patternlab-config.json",
-    "pl:version": "patternlab --version",
-    "start": "npm run pl:serve"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "@pattern-lab/cli": "^6.1.0",
-    "@pattern-lab/core": "^6.1.0",
-    "@pattern-lab/engine-handlebars": "^6.1.0",
-    "@pattern-lab/starterkit-handlebars-vanilla": "^1.4.3",
-    "@pattern-lab/uikit-workshop": "^6.1.0"
+    "vue": "^3.3.11"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.5.2",
+    "vite": "^5.0.10"
   }
 }

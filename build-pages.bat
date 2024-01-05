@@ -2,6 +2,6 @@
 dir
 echo start git operation
 cd indexs
-npm run pl:build
+npm run build
 cd ../
 echo 'git operation finish!'

@@ -38,7 +38,7 @@ const router = useRouter();
 
 const logout = () => {
 
-  userLogout(null).then((res: any) => {
+  userLogout(null).then(() => {
 
     sessionStorage.removeItem("user-token")
     router.push("/login")
